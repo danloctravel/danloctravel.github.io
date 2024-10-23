@@ -5,7 +5,7 @@ import viteTsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/danloctravel',
+  base: '/',
   plugins: [react(), commonjs(), viteTsconfigPaths()],
   test: {
     globals: true,
